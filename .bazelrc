@@ -1,0 +1,7 @@
+common --enable_bzlmod
+
+build --announce_rc
+build --subcommands
+build --copt=-v
+build --swiftcopt=-v
+build --linkopt=-v
